@@ -1,8 +1,6 @@
-
-/*
- * GET home page.
- */
-
-exports.index = function(req, res){
-  res.render('index', { title: 'Express' });
-};
+exports.home = require("./home");
+exports.album = require("./album");
+exports.song = require("./song");
+exports.lyricist = require("./lyricist");
+exports.composer = require("./composer");
+exports.singer = require("./singer");
