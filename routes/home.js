@@ -4,5 +4,7 @@
  */
 
 module.exports = function(req, res){
-    res.send("home list");
+    res.render("home",{
+        title:"haha"
+    });
 };
